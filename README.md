@@ -1,4 +1,4 @@
-pyobd
+piobd
 =====
 
 <pre>OBD-Pi: Raspberry Pi Displaying Car Diagnostics (OBD-II) Data On An Aftermarket Head Unit
@@ -45,11 +45,11 @@ Install these components using the command:
 #  sudo apt-get install git-core
 #  sudo reboot 
 
-Next, download the OBD-Pi Software direct from GitHub (https://github.com/Pbartek/pyobd-pi.git)
+Next, download the OBD-Pi Software direct from GitHub (https://github.com/vishnu-pk/piobd.git)
 
 Or using the command:
 #  cd ~
-#  git clone https://github.com/Pbartek/pyobd-pi.git
+#  git clone https://github.com/vishnu-pk/piobd.git
 
 Vehicle Installation
 The vehicle installation is quite simple.
@@ -83,10 +83,10 @@ To exit the program just press Control and C or Alt and Esc.
 Update: 
 Data Logging
 If you would like to log your data run:
-#  cd pyobd-pi
+#  cd piobd
 #  python obd_recorder.py
 
 The logged data file will be saved under: 
-/home/username/pyobd-pi/log/
+/home/username/piobd/log/
 
 Enjoy and drive safe!</pre>
